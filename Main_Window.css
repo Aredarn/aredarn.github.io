@@ -76,6 +76,7 @@ body{
 .adClick{
     text-decoration: none;
     color: black;
+    font-weight: bold;
 }
 
 .adClick:hover{
@@ -92,20 +93,28 @@ body{
     border-style: solid;
     border-color: black;
     margin-top: 3%;
+    max-height: 230px;
 }
 
-img{
-    max-width: 100%;
+.pcPhoto{
+    max-width: 90%;
     min-width: 15%;
     border-style: double;
     border-color: darkblue;
+    margin: 2% 3%;
 }
 
 
-  /* Style the footer */
+/* Style the footer */
 footer {
-    background-color: #777;
+    background-color: rgb(99, 99, 99);
     border-radius: 15px;
     text-align: center;
     color: white;
   }
+
+.logo{
+    height: 30px;
+    width: 30px;
+
+}
