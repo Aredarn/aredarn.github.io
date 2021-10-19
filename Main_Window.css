@@ -18,6 +18,15 @@ body{
 
 }
 
+
+
+#navBar{
+    width: 100%;
+    margin: 2% 0%;
+    border-collapse: collapse;  
+    table-layout: fixed;
+}
+
 .timeLine{
     text-align: right;
     background-color: rgb(219, 159, 28);
@@ -37,12 +46,9 @@ body{
     background-color:rgb(219, 159, 28);
 }
 
+h3{
+    text-align: center;
 
-#navBar{
-    width: 100%;
-    margin: 2% 0%;
-    border-collapse: collapse;  
-    table-layout: fixed;
 }
 
 .tdnavBar{
