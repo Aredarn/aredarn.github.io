@@ -35,11 +35,16 @@ body{
     border-style:solid;
     border-color: black;
     border-width: 5px;
-    width: 80%;
-    margin: 1% 7%;
+
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    
+    display: block;
     padding:1% 3%;
     align-items: center;
-    align-self: center;
     background-color:rgb(219, 159, 28);
 }
 
@@ -107,6 +112,10 @@ h3{
     margin: 2% 3%;
 }
 
+#carouselExampleControls{
+    max-height: 50%;
+}
+
 
 /* Style the footer */
 footer {
@@ -114,6 +123,8 @@ footer {
     border-radius: 15px;
     text-align: center;
     color: white;
+    display: block;
+    
   }
 
 .logo{
