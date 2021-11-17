@@ -15,7 +15,6 @@ body{
 }
 
 
-
 #navBar{
 
     width: 100%;
@@ -24,11 +23,6 @@ body{
     table-layout: fixed;
 }
 
-.timeLine{
-    text-align: right;
-    background-color: rgb(219, 159, 28);
-    border-radius: 10px;
-}
 
 #middleRowDiv{
     border-radius: 5px;
@@ -36,7 +30,7 @@ body{
     border-color: black;
     border-width: 5px;
 
-    width: 70%;
+    width: 80%;
     margin-left: auto;
     margin-right: auto;
     margin-top: 2%;
@@ -48,10 +42,16 @@ body{
     background-color:rgb(219, 159, 28);
 }
 
-h3{
+.middleRowDivH3{
     text-align: center;
-
+    font-weight: bolder;
+    
 }
+
+.middleRowDivP{
+    font-size:calc(7px + 0.7vw);
+}
+
 
 .tdnavBar{
     font-size:calc(8px + 1.3vw);
@@ -82,6 +82,7 @@ h3{
 }
 
 .adClick{
+    font-size:calc(14px + 0.7vw);
     text-decoration: none;
     color: black;
     font-weight: bold;
@@ -124,6 +125,10 @@ footer {
     text-align: center;
     color: white;
     display: block;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
     
   }
 
