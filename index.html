@@ -12,24 +12,31 @@
 </head>
 
 <body>
-    <!--Header-->
-    <div class="header">
-        <h1>
-            BÖRÖNDI COMPUTER
-        </h1>
-        <h3>
-            (számítógép értékesítés, alkatrészek, tanácsadás, szervíz)
-        </h3>
-        <!--Navigation bar to switch pages-->
-        <table id="navBar">
-            <tr> 
-                <td class="hoverTd"><a class="tdnavBar" href="index.html">Főoldal</a> </td>
-                <td class="hoverTd"><a class="tdnavBar" href="Parts.html">Alkatrészek</a></td>
-                <td class="hoverTd"><a class="tdnavBar" href="Services.html">Szolgáltatások</a></td> 
-                <td class="hoverTd"><a class="tdnavBar" href="archives.html">Eladott PC-k</a></td> 
-            </tr>
-        </table>
-    </div>
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">BÖRÖNDI COMPUTER</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav me-auto mb-2 mb-md-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html">Főoldal</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="Parts.html">Alkatrészek</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="Services.html">Szolgáltatások</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="archives.html">Eladott számítógépek</a>
+              </li>
+    
+            </ul>
+          </div>
+        </div>
+      </nav>
     
     
 <!--Middle of the page, the computer ads are here-->
@@ -104,8 +111,6 @@
     </div>
     <!--END OF PC_1-->
 
-
-    <br>
 </div>
 <footer>
         Elérhetőségek: facebook: <a target="_blank" href="https://www.facebook.com/B%C3%B6r%C3%B6ndi-computer-100686739064051"></a><img class="logo" src="Logos, wallpapers\Facebook_icon.png" alt="Click here!"> </a>
