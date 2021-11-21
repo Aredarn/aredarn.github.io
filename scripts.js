@@ -1,4 +1,3 @@
-var buttonMain = document.querySelectorAll('.hoverTd');
 var adClick = document.querySelectorAll(".pc");
 
 
@@ -20,16 +19,6 @@ function enterButton(el) {
 function leaveButton(el) {
   animateButton(el, 1.0, 600, 300)
 };
-
-for (var i = 0; i < buttonMain.length; i++) {
-    buttonMain[i].addEventListener('mouseenter', function(e) {
-    enterButton(e.target);
-  }, false);
-  
-  buttonMain[i].addEventListener('mouseleave', function(e) {
-    leaveButton(e.target)
-  }, false);  
-}
 
 
 for (var i = 0; i < adClick.length; i++) {
