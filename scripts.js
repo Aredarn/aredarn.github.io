@@ -1,4 +1,4 @@
-var adClick = document.querySelectorAll(".pc");
+var adClick = document.querySelectorAll(".col-md-4");
 
 
 function animateButton(el, scale, duration, elasticity) {
@@ -12,7 +12,7 @@ function animateButton(el, scale, duration, elasticity) {
 }
 
 function enterButton(el) {
-  animateButton(el, 1.2, 800, 400)
+  animateButton(el, 1.1, 800, 400)
   console.log("saniy")
 };
 
@@ -31,4 +31,3 @@ adClick[i].addEventListener('mouseleave', function(e) {
 }, false);  
 }
 
-  

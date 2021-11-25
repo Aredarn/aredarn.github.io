@@ -1,5 +1,5 @@
 body{
-    font-size:calc(10px + 0.8vw);
+    font-size:calc(15px + 0.6vw);
     background-image: url(PC-s/board.jpg);
 }
 
@@ -34,37 +34,22 @@ body{
     background-color:rgb(219, 159, 28);
 }
 
-.middleRowDivH3{
+.middleRowDivH2{
     text-align: center;
     font-weight: bolder;
     
 }
 
 .middleRowDivP{
-    font-size:calc(7px + 0.7vw);
+    font-size:calc(14px + 0.6vw);
+    text-align: justify;
 }
 
-
-.tdnavBar{
-    font-size:calc(8px + 1.3vw);
-    padding: 5%;
-    color: black;
-    background-color: rgb(255, 255, 255);
-    border-radius: 20px;
-    text-align: center;
-    text-decoration: none;
-   
-}
-
-.tdnavBar:hover{
-    color: rgb(190, 3, 3);
-    text-decoration: none;
-}
 
 .trDetailsUpper{
    
     width:80%;
-    padding: 2%;
+    padding: 4%;
    
 }
 
@@ -74,20 +59,17 @@ body{
 }
 
 .adClick{
-    font-size:calc(14px + 0.7vw);
+    font-size:calc(10px + 0.8vw);
     text-decoration: none;
     color: black;
-    font-weight: bold;
+    font-weight: bolder;
 }
 
 .adClick:hover{
     text-decoration:underline;
+    color: black;
 }
 
-.trDetailsLower{
-    border-style: double;
-    border-color: darkblue;
-}
 
 .pc{
     background-color: rgb(255, 215, 103);
@@ -97,10 +79,16 @@ body{
     max-height: 250px;
 }
 
-
 #carouselExampleControls{
     max-height: 50%;
 }
+
+
+.arch_Info{
+    text-align: center;
+    color: black;
+}
+
 
 
 /* Style the footer */
