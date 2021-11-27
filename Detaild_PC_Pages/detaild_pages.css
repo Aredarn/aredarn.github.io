@@ -1,0 +1,45 @@
+h1{
+    margin: 1%;
+    text-align: center;
+    font-weight: bolder;
+    text-decoration: underline;
+}
+
+.pc_Slide{
+    display: inline-block;
+    border: 1px solid red; 
+    margin:2%;
+    max-width: 40%;
+    min-width: 36%;
+}
+.pc_Slide_ul{
+    font-size: calc(2px + 1.5vw);
+    display: inline-block;
+    vertical-align:top;
+    margin-left: 3%;
+    margin-top: 2%;
+}
+
+.middleRowDiv_Detaild{
+    border-radius: 5px;
+    border-style:solid;
+    border-color: black;
+    border-width: 5px;
+
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: calc(100px - 0.9vw);
+    margin-bottom: 6%;
+    
+    background-color:rgb(219, 159, 28);
+
+}
+.price{
+    font-weight: bolder;
+}
+
+.text{
+    margin: 1%;
+    text-align: left;
+}
