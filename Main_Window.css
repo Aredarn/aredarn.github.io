@@ -3,10 +3,7 @@ body{
     background-image: url(PC-s/board.jpg);
 }
 
-
-
-
-#middleRowDiv{
+.middleRowDiv{
     border-radius: 5px;
     border-style:solid;
     border-color: black;
@@ -35,7 +32,6 @@ body{
     text-align: justify;
 }
 
-
 .trDetailsUpper{
    
     width:80%;
@@ -60,7 +56,6 @@ body{
     color: black;
 }
 
-
 .pc{
     background-color: rgb(255, 215, 103);
     border-style: solid;
@@ -73,13 +68,16 @@ body{
     max-height: 50%;
 }
 
-
 .arch_Info{
     text-align: center;
     color: black;
 }
 
-
+@media (max-width:700px) {
+    .middleRowDiv{
+        width: 95%;
+    }
+}
 
 /* Style the footer */
 footer {

@@ -13,8 +13,10 @@ h1{
 .pc_Slide_ul{
     display: inline-block;
     vertical-align:top;
-    margin-left: 3%;
-    margin-top: 2%;
+    margin: 2%;
+}
+.pc_Slide_ul ul li{
+    font-size: calc(12px + 1.4vw);
 }
 
 .middleRowDiv_Detaild{
@@ -37,8 +39,8 @@ h1{
 }
 
 .text{
-    margin: 1%;
-    text-align: left;
+    margin: 2%;
+    text-align: justify;
 }
 
 @media (max-width:700px) {
@@ -48,5 +50,8 @@ h1{
     .pc_Slide{
         display: block;
         max-width: 100%;
+    }
+    .middleRowDiv_Detaild{
+        width: 95%;
     }
 }
