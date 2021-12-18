@@ -1,6 +1,5 @@
 var adClick = document.querySelectorAll(".col-md-4");
 
-
 function animateButton(el, scale, duration, elasticity) {
   anime.remove(el);
   anime({
@@ -30,4 +29,5 @@ adClick[i].addEventListener('mouseleave', function(e) {
   leaveButton(e.target)
 }, false);  
 }
+
 
