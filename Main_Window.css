@@ -138,7 +138,7 @@ footer {
 
     .servicesPhoto{
         display: block;
-        width: 400px;
+        width: 100%;
     }
     .servicesDiv{
         display: block;
