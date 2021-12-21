@@ -55,6 +55,21 @@ body{
     color: black;
 }
 
+.servicesDiv{
+   width: 61%;
+    display: inline-block;
+
+}
+
+
+.servicesPhoto
+{
+    width: 38%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+
 .pc{
     background-color: rgb(255, 215, 103);
     border-style: solid;
@@ -119,5 +134,18 @@ footer {
        display:block;
        text-align: center;
        margin-top: auto;
+    }
+
+    .servicesPhoto{
+        display: block;
+        width: 400px;
+    }
+    .servicesDiv{
+        display: block;
+        width: auto;
+    }
+    .middleRowDiv
+    {
+        text-align: center;
     }
 }
