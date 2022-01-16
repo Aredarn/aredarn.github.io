@@ -61,7 +61,6 @@ body{
 
 }
 
-
 .servicesPhoto
 {
     width: 38%;
@@ -87,6 +86,10 @@ body{
     color: black;
 }
 
+#infoRef{
+    color: black;
+}
+
 @media (max-width:700px) {
     .middleRowDiv{
         width: 95%;
@@ -106,12 +109,6 @@ footer {
     width: 100%;
     
   }
-
-.logo{
-    height: 30px;
-    width: 30px;
-
-}
 
 @media (max-width:525px) {
     #upperTD{
@@ -147,5 +144,6 @@ footer {
     .middleRowDiv
     {
         text-align: center;
+        margin-top: 16%;
     }
 }
