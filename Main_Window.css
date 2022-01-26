@@ -90,6 +90,30 @@ body{
     color: black;
 }
 
+#openTable{
+    margin: auto;
+    border-style: solid;
+    border-color: black;
+    
+    
+}
+
+.otTR, td
+{
+    border: black;
+    border-style: solid;
+    text-align: center;
+    font-size:calc(25px + 0.6vw);
+}
+
+.paragraf
+{
+    text-align: center;
+    text-decoration: underline;
+    font-weight: bolder;
+    font-size:calc(15px + 0.9vw);
+}
+
 @media (max-width:700px) {
     .middleRowDiv{
         width: 95%;
