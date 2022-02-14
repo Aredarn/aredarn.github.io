@@ -114,6 +114,10 @@ body{
     font-size:calc(15px + 0.9vw);
 }
 
+#mainDiv{
+    text-align: center;
+}
+
 @media (max-width:700px) {
     .middleRowDiv{
         width: 95%;
