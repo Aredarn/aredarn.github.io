@@ -1,8 +1,8 @@
 <?php
 
-	$servername = "127.0.0.1:3306";
-	$username = "db_user@localhost";
-	$password = "";
+	$servername = "localhost";
+	$username = "db_user";
+	$password = "Jelszo1";
 	$db = "borondicomputer";
 
     $conn = new mysqli($servername, $username, $password, $db);
@@ -80,7 +80,7 @@
             //Creates the files if they doesn't exist from the categories
             $myFile=$rekord["categname"] .'.html';
             $fh = fopen($myFile, 'a+') 
-            or exit("<font color='red'>Please  woooork");
+            or exit("<font color='red'>Please Create a directory name:3dpage");
             
             if(!file_exists($myFile))
             {
@@ -93,7 +93,6 @@
             }
         }
         $str .= "</div>";
-        echo "vége";
         echo $str;
        }
 

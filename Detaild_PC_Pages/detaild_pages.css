@@ -1,0 +1,59 @@
+h1{
+    margin: 1%;
+    text-align: center;
+    font-weight: bolder;
+}
+
+.pc_Slide{
+    display: inline-block;
+    border: 3px solid rgb(0, 0, 0); 
+    margin:2%;
+    max-width: 40%;
+}
+.pc_Slide_ul{
+    display: inline-block;
+    vertical-align:top;
+    margin: 2%;
+}
+.pc_Slide_ul ul li{
+    font-size: calc(9px + 1vw);
+}
+
+
+.middleRowDiv_Detaild{
+    border-radius: 5px;
+    border-style:solid;
+    border-color: black;
+    border-width: 5px;
+
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: calc(110px - 0.9vw);
+    margin-bottom: 6%;
+    
+    background-color:rgb(219, 159, 28);
+
+}
+.price{
+    font-weight: bolder;
+}
+
+.text{
+    margin: 2%;
+    text-align: justify;
+}
+
+@media (max-width:700px) {
+    .pc_Slide_ul{
+        display: block;
+    }
+    .pc_Slide{
+        display: block;
+        max-width: 100%;
+    }
+    .middleRowDiv_Detaild{
+        width: 95%;
+        margin-top: 16%;
+    }
+}
