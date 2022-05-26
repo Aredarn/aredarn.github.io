@@ -150,10 +150,6 @@ body{
     
     
 }
-.card-footer
-{
-    margin: auto;
-}
 
 .itemButton {
     padding: 7px 13px;
@@ -211,6 +207,12 @@ body{
     font-size:calc(15px + 0.9vw);
 }
 
+
+.card-img-top
+{
+    background-color: white;
+}
+
 #mainDiv{
     text-align: center;
 }
@@ -219,7 +221,12 @@ body{
     .middleRowDiv{
         width: 97%;
     }
+    .card
+    {
+        width:100% !important ;
+    }
 }
+
 
 /* Style the footer */
 footer {
@@ -242,6 +249,7 @@ footer {
         display:block;
         width: 100%;
     }
+    
     .adClick{
         display: block;
         font-size: 24px;

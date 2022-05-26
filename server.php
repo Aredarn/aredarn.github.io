@@ -127,7 +127,7 @@
         while($rekord = $eredmeny->fetch_assoc()){
         $str.= ' 
         <div class="col">
-        <div class="card h-100" style="width: 15rem;">
+        <div class="card h-100" style="width:18rem; ">
         <img src=" '. $rekord["imagesrc"]  .'" class="card-img-top" alt="...">
         <div class="card-body">
           <h5 class="card-title">'. $rekord["name"] .'</h5>
