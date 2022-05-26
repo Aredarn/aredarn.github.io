@@ -8,7 +8,10 @@
     $conn = new mysqli($servername, $username, $password, $db);
 	$conn->set_charset("utf8");
 
-
+	if(mysqli_connect_errno()){
+	    echo "A termékek betöltése közben probléma lépett fel";
+	    exit();
+	}
 
     if($_REQUEST["m"])
     {
@@ -79,8 +82,7 @@
 
             //Creates the files if they doesn't exist from the categories
             $myFile=$rekord["categname"] .'.html';
-            $fh = fopen($myFile, 'a+') 
-            or exit("<font color='red'>Please Create a directory name:3dpage");
+            $fh = fopen($myFile, 'a+');
             
             if(!file_exists($myFile))
             {
@@ -133,7 +135,7 @@
         </div>
         <div class="card-footer">
           <small class="text-muted">Ár: '.$rekord["price"] .'Ft </small>
-          <a href="'.$rekord["itemlink"].'"><button class="itemButton"> Vásárlás  </button></a>
+          <a href="'.$rekord["itemlink"].'" target="_blank"><button class="itemButton"> Vásárlás  </button></a>
         </div>
         </div>
         </div>';}
